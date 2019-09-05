@@ -1,20 +1,20 @@
 consentModal:
   title: Information that we collect
   description: >
-    Here you can see and customize the information that we collect about you.
+    We use necessary cookies to make our site work. We'd also like to set optional tracking mechanisms to help us improve it by collecting and reporting information on how you use it. Here you can customise the information we collect about you by giving or revoking your consent to our use of optional tracking mechanisms.
   privacyPolicy:
     name: privacy policy
     text: >
-      To learn more, please read our {privacyPolicy}.
+      For more information on how these tracking mechanisms work please see our {privacyPolicy}, in particular the cookies policy.
 consentNotice:
   changeDescription: There were changes since your last visit, please update your consent.
   description: >
-    We collect and process your personal information for the following purposes: {purposes}.
+    We use necessary cookies to make our site work. We'd also like to set optional tracking mechanisms to help us improve it by collecting and reporting information on how you use it.
   learnMore: Learn more
-ok: OK
-save: Save
-decline: Decline
-close: Close
+ok: Accept all cookies
+save: Save settings
+decline: Only essential ones
+close: Close panel
 app:
   disableAll:
     title: Toggle all apps
