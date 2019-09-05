@@ -8,11 +8,11 @@ $red2: #B24E14;
 $red1: #BA1E04;
 $yellow1: #F8C200;
 $yellow2: #D4D026;
-$blue3: #005091;
+$blue3: #cd0061;
 $blue2: #003F8A;
-$blue1: #0885BA;
+$blue1: #cd0061;
 $blue4: #9AC3D4;
-$green1: #00AA3E;
+$green1: #e6007a;
 $green2: #006A4E;
 $green3: #01440C;
 
@@ -44,19 +44,25 @@ $green3: #01440C;
             margin: 0;
             padding: 0;
             margin-top: 0.7em;
+            line-height: 1.5em;
         }
 
         .cm-btn {
             box-shadow: $box-shadow;
             color: $font-color-dark;
-            border-radius: 6px;
-            padding: 0.5em;
+            border-radius: 4px;
+            padding: .4em 1em;
             margin-right: 0.5em;
             border: 0;
+            height: auto;
+            font-weight: bold;
+            cursor: pointer;
 
             &.cm-btn-sm {
-                padding: 0.4em;
+                padding: .4em 1em;
                 font-size: 1em;
+                font-weight: bold;
+                height: auto;
             }
 
             &.cm-btn-close {
@@ -121,7 +127,7 @@ $green3: #01440C;
             overflow: auto;
             background: $bg-dark;
             color: $font-color-dark;
-    
+
             .hide   {
                 border: none;
                 background: none;
@@ -201,6 +207,7 @@ $green3: #01440C;
 
                         span.cm-app-title {
                             font-weight: 600;
+                            font-size:1.4em;
                         }
 
                         span.cm-opt-out, span.cm-required {
@@ -230,7 +237,7 @@ $green3: #01440C;
             position: fixed;
             bottom: 20px;
             right: 20px;
-            max-width: 300px;
+            max-width: 380px;
         }
 
         @media(max-width: 989px){
@@ -247,13 +254,14 @@ $green3: #01440C;
             padding-top: 0;
 
             p {
+                line-height: 1.5em;
                 margin-bottom: 0.5em;
             }
 
             p.cn-changes {
                 text-decoration: underline;
             }
-    
+
             .cn-learn-more {
                 display: inline-block;
 
